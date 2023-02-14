@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="entradas">
+        <item>Café da Manha</item>
+        <item>Desjejum</item>
+        <item>Almoço</item>
+        <item>Lanche da Tarde</item>
+        <item>Happy Hour</item>
+        <item>Jantar</item>
+        <item>Sobremesa</item>
+        <item>Outros</item>
+    </array>
+</resources>

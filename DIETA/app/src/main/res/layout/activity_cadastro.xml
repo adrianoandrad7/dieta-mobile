@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dieta.CadastroActivity"
+    android:orientation="vertical"
+    android:background="@drawable/dieta02">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/dataCadTxt"
+            style="@style/edit_text_data">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+
+        <EditText
+            android:id="@+id/nomeAlimentoCadTxt"
+            style="@style/edit_text_inserir_alimento">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp" >
+
+        <EditText
+            android:id="@+id/valorKcalTxt"
+            style="@style/edit_text_inserir_calorias">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp" >
+
+        <Spinner
+            android:id="@+id/classeCadSpinner"
+            style="@style/spiner" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/salvarBtn"
+        android:text="@string/inserir_entrada"
+        android:layout_marginTop="150dp"
+        style="@style/btns" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">dietaSeuJose</string>
+    <string name="consumo_diario_txt">Consumo Diário</string>
+    <string name="consumo_diario_value">0</string>
+    <string name="consumo_diario_faltante_txt">Hoje você ainda pode consumir:</string>
+    <string name="consumo_diario_faltante_value">2100</string>
+    <string name="kcal">kcal</string>
+    <string name="cadastrar">Cadastrar Novo Alimento</string>
+    <string name="ir_data">Filtrar Período</string>
+
+
+    <string name="data">Inserir Data</string>
+    <string name="inserir_alimento">Inserir Alimento</string>
+    <string name="inserir_calorias">Inserir Calorias</string>
+    <string name="inserir_entrada">Inserir</string>
+
+    <string name="data_inicial">Data Inicial</string>
+    <string name="data_final">Data Final</string>
+    <string name="calorias_entre_datas_txt">Calorias: </string>
+    <string name="media_entre_datas_txt">Média Calórica: </string>
+    <string name="aplicar">Aplicar</string>
+    <string name="media_por_refeicao">Média por Refeição: </string>
+    <string name="media">0</string>
+    <string name="cafe_manha">Café da manha ----- </string>
+    <string name="desjejum">Desjejum --------------- </string>
+    <string name="almoço">Almoço ----------------  </string>
+    <string name="lanche_tarde">Lanche da tarde ---- </string>
+    <string name="happy_hour">Happy hour ----------- </string>
+    <string name="jantar">Jantar ------------------- </string>
+    <string name="sobremesa">Sobremesa ----------- </string>
+    <string name="outros">Outros ------------------- </string>
+
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DEFININDO ESTILOS PARA ACTIVITY-->
+<resources>
+    <style name="imagem_tela1" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/dieta01</item>
+    </style>
+
+    <style name="imagem_tela3" >
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:src">@drawable/dieta03</item>
+    </style>
+
+    <style name="consumo_diario" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:text">@string/consumo_diario_txt</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="kcal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:text">@string/kcal</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="faltante">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:text">@string/consumo_diario_faltante_txt</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="calorias">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/consumo_diario_value</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:background">@color/azul</item>
+    </style>
+
+    <style name="calorias_faltantes">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/consumo_diario_faltante_value</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:background">@color/azul</item>
+    </style>
+
+    <style name="btns">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/backgraud_btn</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="edit_text_data">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/backgraud_edit_text</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:hint">@string/data</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:drawableRight">@drawable/edit_calendar_24</item>
+        <item name="android:inputType">date</item>
+    </style>
+
+    <style name="edit_text_inserir_alimento">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/backgraud_edit_text</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:hint">@string/inserir_alimento</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:drawableRight">@drawable/talher</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="spiner" >
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/backgraud_edit_text</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:drawableRight">@drawable/talher</item>
+        <item name="android:maxLength">40</item>
+        <item name="android:entries">@array/entradas</item>
+    </style>
+
+    <style name="edit_text_inserir_calorias" >
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/backgraud_edit_text</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:drawableRight">@drawable/balance</item>
+        <item name="android:hint">@string/inserir_calorias</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="edit_text_data_inicial">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/backgraud_edit_text</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:drawableRight">@drawable/edit_calendar_24</item>
+        <item name="android:inputType">date</item>
+    </style>
+
+    <style name="edit_text_data_final">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:background">@drawable/backgraud_edit_text_dois</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:hint">@string/data_final</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:drawableRight">@drawable/edit_calendar_24</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:inputType">date</item>
+    </style>
+
+    <style name="calorias_entre_datas" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:text">@string/calorias_entre_datas_txt</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="media_refeicoes" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:text">@string/media_por_refeicao</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="valor_calorias_entre_datas">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">45dp</item>
+        <item name="android:text">@string/consumo_diario_value</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="media_cal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:text">@string/media_entre_datas_txt</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="media_cal_value">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">85dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/consumo_diario_faltante_value</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="medias_pequenas">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:text">@string/media</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:background">@drawable/backgraud_edit_text_dois</item>
+    </style>
+
+    <style name="media_txt" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/media_por_refeicao</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+</resources>
