@@ -1,8 +1,6 @@
 # dieta-mobile
 
-App de dieta desenvolvido durante a disciplina de desenvolvimento mobile
-
-Aplicativo para controle de calorias 
+Aplicativo para controle de calorias desenvolvido durante a disciplina de desenvolvimento mobile
 
 * Tela principal
 
