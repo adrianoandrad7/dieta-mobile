@@ -1,4 +1,4 @@
-# dieta-mobile
+# Dieta mobile
 
 Aplicativo para controle de calorias desenvolvido durante a disciplina de desenvolvimento mobile
 
